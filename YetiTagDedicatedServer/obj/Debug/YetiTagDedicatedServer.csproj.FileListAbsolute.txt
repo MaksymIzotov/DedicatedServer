@@ -1,0 +1,10 @@
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\YetiTagDedicatedServer.exe.config
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\YetiTagDedicatedServer.exe
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\YetiTagDedicatedServer.pdb
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csprojAssemblyReference.cache
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csproj.CoreCompileInputs.cache
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.exe
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.pdb
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\System.Numerics.Vectors.dll
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\System.Numerics.Vectors.xml
+D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csproj.CopyComplete
