@@ -8,3 +8,13 @@ D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debu
 D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\System.Numerics.Vectors.dll
 D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\bin\Debug\System.Numerics.Vectors.xml
 D:\YetiTagDedicatedServer\YetiTagDedicatedServer\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csproj.CopyComplete
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\bin\Debug\YetiTagDedicatedServer.exe.config
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\bin\Debug\YetiTagDedicatedServer.exe
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\bin\Debug\YetiTagDedicatedServer.pdb
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csproj.AssemblyReference.cache
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csproj.CoreCompileInputs.cache
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.csproj.CopyComplete
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.exe
+C:\Users\Max Kayzer\Desktop\DedicatedServer-main\YetiTagDedicatedServer\obj\Debug\YetiTagDedicatedServer.pdb

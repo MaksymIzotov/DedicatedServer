@@ -69,7 +69,28 @@ namespace YetiTagDedicatedServer
             }
         }
 
-       public static void SpawnPlayer(int _toClient, Player _player)
+        public static void Login(int _toClient,int _apr)
+        {
+            using (Packet _packet = new Packet((int)ClientPackets.otpReceived))
+            {
+                _packet.Write(_apr);
+
+                SendTCPData(_toClient, _packet);
+            }
+        }
+
+        public static void SendMessage(int _toClient, string _msg, string _username)
+        {
+            using (Packet _packet = new Packet((int)ServerPackets.message))
+            {
+                _packet.Write(_msg);
+                _packet.Write(_username);
+
+                SendTCPDataToAll(_toClient, _packet);
+            }
+        }
+
+        public static void SpawnPlayer(int _toClient, Player _player)
         {
             using (Packet _packet = new Packet((int)ServerPackets.spawnPlayer))
             {

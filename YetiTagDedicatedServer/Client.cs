@@ -52,7 +52,7 @@ namespace YetiTagDedicatedServer
 
                 stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
 
-                ServerSend.Welcome(id, "Welcome to the server!");
+                ServerSend.Welcome(id, "OTP was sent on your email");
             }
 
             public void SendData(Packet _packet)

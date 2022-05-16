@@ -20,7 +20,6 @@ namespace YetiTagDedicatedServer
             mainThread.Start();
 
             Server.Start(15,27010);
-
         }
 
         private static void MainThread()

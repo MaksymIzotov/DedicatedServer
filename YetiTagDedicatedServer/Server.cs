@@ -27,7 +27,9 @@ namespace YetiTagDedicatedServer
             Console.WriteLine("Starting server...");
             InitializeServerData();
 
-            tcpListener = new TcpListener(IPAddress.Any, Port);
+            IPAddress ip = IPAddress.Parse("192.168.56.1");
+
+            tcpListener = new TcpListener(ip, Port);
             tcpListener.Start();
             tcpListener.BeginAcceptTcpClient(new AsyncCallback(TCPConnectCallback), null);
 
@@ -35,7 +37,7 @@ namespace YetiTagDedicatedServer
             udpListener.BeginReceive(UDPReceiveCallback, null);
 
 
-            Console.WriteLine($"Server started on {Port}.");
+            Console.WriteLine($"Server started on {ip}:{Port}.");
         }
 
         private static void TCPConnectCallback(IAsyncResult _result)
@@ -121,7 +123,9 @@ namespace YetiTagDedicatedServer
             packetHandlers = new Dictionary<int, PacketHandler>()
             {
                 { (int)ClientPackets.welcomeReceived, ServerHandle.WelcomeReceived},
-                { (int)ClientPackets.playerMovement, ServerHandle.PlayerMovement}
+                { (int)ClientPackets.playerMessage, ServerHandle.MessageReceived},
+                { (int)ServerPackets.emailReceived, ServerHandle.EmailReceived},
+                { (int)ServerPackets.otpReceived, ServerHandle.OTPReceived}
             };
             Console.WriteLine("Initialized packets.");
         }

@@ -11,6 +11,9 @@ namespace YetiTagDedicatedServer
     public enum ServerPackets
     {
         welcome = 1,
+        message,
+        otpReceived,
+        emailReceived,
         spawnPlayer,
         playerPosition,
         playerRotation
@@ -20,7 +23,8 @@ namespace YetiTagDedicatedServer
     public enum ClientPackets
     {
         welcomeReceived = 1,
-        playerMovement
+        playerMessage,
+        otpReceived
     }
 
     public class Packet : IDisposable

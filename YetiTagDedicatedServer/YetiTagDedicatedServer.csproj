@@ -50,6 +50,7 @@
     <Compile Include="Client.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="GameLogic.cs" />
+    <Compile Include="OTP.cs" />
     <Compile Include="Packet.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Server.cs" />
